@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Footer from "../footer/Footer";
 import Navbar from "../navbar/Navbar.js";
 import FAQ from "./FAQ.js";
-import backvid from '../../assets/abc.mp4'
 import "./style.css";
 
 function Faqs() {

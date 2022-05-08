@@ -2,13 +2,13 @@ import React from 'react'
 import './SelectsStyles.css'
 
 
-import BoraBora2 from './borabora2.jpg'
-import Maldives from './maldives.jpg'
-import KeyWest from './keywest.jpg'
-import Switzerland from './Switzerland.jpeg'
-import Paris from './Paris.jpg'
-import Russia from './Russia.jpg'
-import SelectsImg from './SelectsImg'
+import BoraBora2 from '../../assets/borabora2.jpg'
+import Maldives from '../../assets/maldives.jpg'
+import KeyWest from '../../assets/keywest.jpg'
+import Switzerland from '../../assets/Switzerland.jpeg'
+import Paris from '../../assets/Paris.jpg'
+import Russia from '../../assets/Russia.jpg'
+import SelectsImg from '../SelectsImg/SelectsImg'
 
 
 function Selects() {
@@ -21,7 +21,6 @@ function Selects() {
                 <SelectsImg bgImg={Paris} text='Paris' />
                 <SelectsImg bgImg={Russia} text='Russia' />
                 <SelectsImg bgImg={KeyWest} text='Key West' />
-                    <br></br>
             </div>
 <br/>
         </div>

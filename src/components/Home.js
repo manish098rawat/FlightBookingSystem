@@ -1,22 +1,22 @@
 import React from 'react'
 
-import Footer from './Footer';
-import Hero from './Hero'
-import Navbar from './Navbar'
-import Search from './Search';
-import Selects from './Selects';
-import AboutUs from './AboutUs';
-import '../App.css';
+// import Footer from './footer/Footer';
+import Hero from './hero/Hero'
+import Navbar from './navbar/Navbar'
+import Search from './search/Search';
+import Selects from './selects/Selects';
+
+import './App.css';
 
 export default function Home() {
   return (
-   <div >
-       <Navbar/>
-          <Hero />
-          <Search />
-          <Selects />
-          <Footer />
-  
-   </div>
+    <div >
+      <Navbar />
+      <Hero />
+      <Search />
+      <Selects />
+
+
+    </div>
   )
 }

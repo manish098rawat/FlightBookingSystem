@@ -1,4 +1,3 @@
-
 .navbar {
     width: 100%;
     height: 80px;
@@ -24,14 +23,9 @@ li {
     color:white;
 }
 
-.hamburger {
-    display: none;
-    /* padding: 1rem; */
-}
 
-.mobile-menu {
-    display: none;
-}
+
+
 
 .icon {
     font-size: 1.5rem;
@@ -49,45 +43,4 @@ li {
 .btn:hover {
     background-color: yellow;
     color: black;
-}
-
-
-
-    .dark {
-        color: #000;
-    }
-
-    .active {
-        top: 80px;
-    }
-
-   
-
-   
-    .social-icons {
-        display: flex;
-        justify-content: space-around;
-        margin: 2rem 0;
-    }
-
-    .social-icons .icon:hover {
-        transform: scale(1.5);
-        transition: 0.3s;
-    }
-
-   
-
-
-    .nav-menu {
-        display: none;
-    }
-
-    .nav-icons {
-        display: none;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
 }

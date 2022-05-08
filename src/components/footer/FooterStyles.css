@@ -3,13 +3,15 @@
     padding: 2rem 0;
     background-color: #333;
     color: #fff;
+    margin-top: auto;
 }
 
 .footer h3 {
     color: var(--primary-light);
 }
 
-.footer .top, .bottom {
+.footer .top,
+.bottom {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -23,10 +25,11 @@
 }
 
 .footer .icon {
-   color: var(--primary-light);
+    color: var(--primary-light);
 }
 
-.footer .left, .right {
+.footer .left,
+.right {
     display: flex;
     align-items: center;
 }
